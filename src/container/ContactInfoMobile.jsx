@@ -6,8 +6,8 @@ const ContactInfoMobile = ({ toggle, setToggle }) => {
     <div
       className={`absolute top-[4.8rem] right-0 bg-bgpColor p-7 sm:hidden overflow-hidden  ${
         toggle
-          ? " translate-y-0 ease-in duration-500 z-30"
-          : " -translate-y-[100px]  -z-30 ease-out duration-300"
+          ? " opacity-[1] ease-in duration-500 z-30"
+          : " opacity-0 -z-30 ease-out duration-300"
       } shadow-2xl`}
     >
       <div>

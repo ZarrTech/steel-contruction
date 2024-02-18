@@ -142,7 +142,7 @@ html{
 
 
   .ham-menu{
-    @apply flex items-center bg-bgpColor justify-center absolute top-[6rem] right-0 left-0  text-textColor w-[200px] h-[200px] sm:hidden shadow-xl
+    @apply flex items-center bg-bgpColor justify-center absolute top-[5rem] right-0 left-0  text-textColor w-[200px] h-[200px] sm:hidden shadow-xl
   }
 
   .ham-menu-container{
